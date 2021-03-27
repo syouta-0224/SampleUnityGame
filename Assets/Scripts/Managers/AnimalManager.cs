@@ -15,7 +15,7 @@ namespace Scripts.Managers
                 Name = animalName
             };
 
-            Debug.Log(animal.Name);
+            Debug.Log($"{animal.Id}:{animal.Name}");
 
             return animal;
         }
